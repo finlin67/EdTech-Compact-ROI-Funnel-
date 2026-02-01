@@ -1,11 +1,29 @@
-<div align="center">
+# EdTech Compact ROI Funnel
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A dark-themed, glassmorphic ROI funnel dashboard designed for EdTech marketing agencies.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Interactive Funnel**: Animated progress bars and hover effects for different funnel stages (Awareness, Interest, Application, Enrolled).
+- **Data Visualization**: Key metrics (ROI, Growth, CPE, LTV) with trend indicators.
+- **Contextual Tooltips**: Hover over funnel stages for detailed insights and conversion rates.
+- **Academic Alignment**: Visual bar chart alignment with academic calendars (Peak Intake highlighting).
+- **Responsive Design**: Scales comfortably within a hero tile layout (max 600px).
+- **Tech Stack**: React, Tailwind CSS, Framer Motion, Lucide React.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Components
 
-</div>
+### `EdTechROIFunnel`
+The main dashboard component. It is self-contained and handles all animations and state.
+
+## Usage
+
+This project is set up to run in a standard React environment (Next.js/Vite).
+
+```tsx
+import EdTechROIFunnel from './components/EdTech-ROI-Funnel';
+
+function Page() {
+  return <EdTechROIFunnel />;
+}
+```
